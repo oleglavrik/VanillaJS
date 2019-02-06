@@ -1,0 +1,16 @@
+#test {
+    width: 600px;
+    height: 100px;
+    background: yellow;
+    position: relative;
+    overflow: hidden;
+}
+
+#test2 {
+    width: 10px;
+    height: 100px;
+    position: absolute;
+    left: 290px;
+    top: 0;
+    background: blue;
+}
