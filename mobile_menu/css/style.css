@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#menu {
+    width: 250px;
+    height: 100vh;
+    background: #000;
+    position: fixed;
+    left: -230px;
+    transition: all ease 1s;
+    padding: 20px 30px;
+
+}
+
+#menu li {
+    list-style: none;
+    color: #fff;
+}
