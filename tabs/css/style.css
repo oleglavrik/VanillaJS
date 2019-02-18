@@ -1,0 +1,28 @@
+.tabs {
+    width: 600px;
+    margin: 50px auto;
+}
+.tab-h {
+    display: inline-block;
+    padding: 10px 30px;
+    border: 1px solid black;
+    text-align: center;
+}
+.t-body {
+    display: none;
+    padding: 20px;
+    border: 1px solid #000;
+}
+.tabs-body {
+    position: relative;
+    top: -1px;
+    z-index: 1;
+}
+
+.tabs-header {
+    position: relative;
+    z-index: 2;
+}
+.active {
+    border-bottom: 1px solid #fff;
+}
