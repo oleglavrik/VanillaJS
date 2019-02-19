@@ -7,7 +7,7 @@ window.onload = function () {
             var dataTab = event.target.getAttribute('data-tab'),
                 tabB = document.getElementsByClassName('t-body'),
                 tabH = document.getElementsByClassName('tab-h');
-            
+
             // remove all active tabs
             for(var i = 0; i < tabH.length; i++) {
                 tabH[i].classList.remove('active');

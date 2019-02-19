@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.left, .right {
+    float: left;
+    width: 20%;
+    padding: 20px;
+}
+
+.left {
+    background: coral;
+}
+
+.right {
+    background: green;
+}
